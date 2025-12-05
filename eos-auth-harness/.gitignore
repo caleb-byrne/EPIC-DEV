@@ -1,0 +1,36 @@
+# Build artifacts
+build/
+bin/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+
+# IDE directories
+.vscode/
+.idea/
+*.swp
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# EOS SDK (don't commit SDK files)
+SDK/
+EOS-SDK*/
+EOSSDK/
+
+# Credentials / secrets
+*.env
+credentials.json
+secret.json
+*.key
+*.pem
+
+# Logs / temporary
+*.log
+tmp/
